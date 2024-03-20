@@ -20,6 +20,13 @@ body {
 #controls {
     border: 1px black solid;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#controls button {
+    margin: 0.25rem;
 }
 
 #stats {
